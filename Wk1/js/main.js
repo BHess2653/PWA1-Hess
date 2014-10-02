@@ -1,4 +1,9 @@
 
+
+
+
+// 9-30-2014
+
 /*
 
 var animal = "Dog";
@@ -64,6 +69,213 @@ function convertTemp(a,b){
 //f=c*2+30
 
 */
+
+
+
+
+
+// 10-2-2014
+
+
+//splice or pop 40 out
+
+/*
+var grades = [[90,50,60],[88,92,40],100];
+
+console.log(grades[0][2]);
+
+console.log(grades[0],grades[1],grades[2]);
+
+//grades.splice([1],[0]);
+
+console.log(grades[1]);
+
+
+//grades[0][2]=100;
+
+//grades[1].pop();
+
+//console.log(grades[1].pop());
+
+//grades[1].splice(2,1);
+
+//[1].pop;
+
+*//*
+
+
+//console log bob
+
+var grades = [[90,80,["Bob","Joe"]],[200,17],4];
+
+console.log(grades[0][2][0]);
+
+console.log(grades[0],grades[0][2],grades[1],grades[2]);
+
+*/
+
+
+//1-6
+/*
+for(var i=0;i<100;i++){
+
+    var dice = Math.floor(Math.random()*11+2);    //if you want it to start from -2 to 15 it would be ()*15-2
+
+    console.log(dice);
+}
+
+*//*
+
+//-5 > 2
+
+Math.floor(Math.random()*8-5);
+
+//5-10
+
+//~~(Math.random()*6+5);
+
+*//*
+
+
+function rnd(a,b){
+
+    rnd = ~~(Math.random()*8-5) //3+4
+    return rnd
+}
+
+rnd(-5,2); //4,6
+
+
+//log random number between values
+
+console.log(rnd);
+
+*//*
+
+Math.floor(Math.random()*8-5)
+
+function rnd(l,h){
+
+    return ~~(Math.random()*(h-l+1)+l);        //high number - low number +1         ()*(h-l+1)+l
+
+
+}
+
+
+console.log(rnd(-1,0));
+
+*//*
+
+
+
+
+
+var grade = 90;
+
+if (grade>89){
+
+    console.log("You got an A")
+
+
+}else if(grade>79){
+
+    console.log("You got a B");
+
+}else if(grade>69){
+
+    console.log("You got a C");
+
+}else if(grade>59){
+
+    console.log("You got a D");
+
+}else {
+
+    console.log("You Suck!!!");
+
+}
+
+switch(grade){
+
+    case "A":
+}
+
+*//*
+
+var dice=4;
+
+switch(dice){
+    case 1:      //case 1,2 <- can't do this.
+        console.log("You rolled a one");
+        break;
+    case 2:
+        console.log("You rolled a two");
+    default:
+        //blah blah blah blah blah
+}
+
+
+
+*//*
+
+var grade = "A";
+
+switch(grade){
+
+    case "A":
+        message("you got an A");
+        break;
+    case "B":
+        message("you got a B");
+        break;
+    case "C":
+        message("you got a C");
+        break;
+    default:
+        //whatever
+
+
+}
+
+*//*
+
+
+
+//console.log("bob");
+var people = ["global folks"];
+function(){
+    var score=0;
+    var people = ["bob", "joe"];
+    console.log("started", people);
+
+}
+
+console.log(people);
+
+*//*
+
+//console.log("bob")
+(function(){
+    var score = 0;
+    var people = ["bob","joe"];
+    console.log("started", people);
+
+})();
+
+*/
+
+(function() {
+    console.log("loaded");
+    var glhfkng
+    var name="bob";
+    var gffdhdg
+    console.log(Name);
+
+})();
+
+consoel.length(name);
+
+
 
 
 
