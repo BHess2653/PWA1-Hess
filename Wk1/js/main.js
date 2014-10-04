@@ -262,7 +262,7 @@ console.log(people);
 
 })();
 
-*/
+*//*
 
 (function() {
     console.log("loaded");
@@ -275,11 +275,66 @@ console.log(people);
 
 consoel.length(name);
 
+*/
+
+//10-4-2014 - objective literals
+
+/*
+
+(function(){
+
+    var stuff = [80,90,100];
+    var trash = [5,9,23,"Scott",8,9,11];
+    enumerate(stuff);
+    console.log(getAvarage(stuff));
+    console.log(getAvarage([90,70]));
+
+    // console.log("****************************");
+   // enumerate(trash);
+
+    function enumerate(a){
+//        for (var i=0;i<a.length;i++){
+//            console.log(a[i]);
+//        }
+        a.forEach(function(e){
+            console.log("cool",e)
+
+        })
+    }
+    function getAverage(n){
+        var total=0;
+        var ct=0;
+        n.forEach(function(e){
+            if (typeof e == "number"){
+                ct++;
+                total+=e;
+
+            }
+
+        });
+        return total/ct;
+
+    }
+
+})();
+
+*/
+
+
+function cool(arr,t){
+
+    var a = [1,2,"Bob",[4,7]];
+    a.forEach(function(){
 
 
 
+    });
+    console.log(a.length);
+
+}
 
 
+//return the total number of elements that are only numbers
 
 
 
