@@ -1,9 +1,8 @@
-/**
- * Duel Fight Game - FINISHED
- * Date: 4/09/13
-
- Assignment 1
- Part 1/3 of series
+/*
+ Brandon Hess
+ ID# 4621251
+ 10-4-2014
+ PWA-1
  */
 
 // self-executing function
@@ -72,7 +71,7 @@
         return result;
     };
 
-    /*******  The program gets started below *******/
+
     fight();
 
 })();
