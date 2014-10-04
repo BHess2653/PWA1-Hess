@@ -318,27 +318,63 @@ consoel.length(name);
 
 })();
 
-*/
+*//*
 
+
+cool([2,"Bob",4,"Joe",7]);
 
 function cool(arr,t){
-
-    var a = [1,2,"Bob",[4,7]];
-    a.forEach(function(){
+    var counter=0;
 
 
+    arr.forEach(function(e){
+    console.log(typeof e);
+        if(typeof e == "number"){
+
+            counter++;  //adds one to our tally of numbers in our array
+
+
+        }
 
     });
-    console.log(a.length);
+    return counter;
 
 }
 
-
 //return the total number of elements that are only numbers
 
+*/
+
+(function(){
+
+    var stuff = [80,"Bob",90,100,10,10,"gf","Target",9];
+    var trash = [5,9,23,"Scott",8,9,11];
+
+    //data structures and control structures
+
+    var notSoCoolDog = [["breed","pit bull"],["color","black"],["name","Max"],["age",7]];
+    var coolDog = {breed:"Pitbull",color:"black",name:"Max",age:7};
+    var cat = {};
+    cat.name="fido";
+    cat.age = 3;
+
+    //loop (enumerate) through the properties of an Object Literal
+
+    for (var prop in coolDog){
+
+        console.log(prop,coolDog[prop]);
+
+    }
+
+//    console.log(notSoCoolDog[1][1]);
+//
+//    console.log(coolDog["age"]); //access notation
+//    console.log(coolDog.name); //dot syntax
+
+    //coolDog["breed"];
 
 
-
+})();
 
 
 
