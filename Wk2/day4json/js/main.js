@@ -104,7 +104,7 @@
         chapters: [{chapterName:"c1", pages:1000},{chapterName:"c2",pages:2000}]
 
 
-    }
+    };
 
     for (var i=0; i<books.chapters.length;i++){
 
