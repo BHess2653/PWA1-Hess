@@ -15,23 +15,26 @@ var person = {
         {
             "category": "PHP",
             "tests": [
-                { "name": "One", "score": 90 },
-                { "name": "Two", "score": 96 }
+                { "name": "Paul", "score": 90 },
+                { "name": "Alex", "score": 96 },
+                { "name": "Scott", "score": 96 }
             ]
         },
         {
             "category": "CouchDB",
             "tests": [
-                { "name": "One", "score": 32 },
-                { "name": "Two", "score": 84 }
+                { "name": "Kelly", "score": 32 },
+                { "name": "Emma", "score": 84 }
             ]
         },
         {
             "category": "Node.js",
             "tests": [
-                { "name": "One", "score": 97 },
-                { "name": "Two", "score": 93 }
+                { "name": "Jeff", "score": 97 },
+                { "name": "Hilson", "score": 93 }
             ]
         }
     ]
-}
+};
+
+//console.log("name "+person.skills[i].tests[j].name + " - score "+ person.skills[i].tests[j].score);
